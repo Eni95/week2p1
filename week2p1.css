@@ -1,0 +1,79 @@
+.pinterest {
+    position: relative;
+}
+
+.pinterest img {
+    border-radius: 5%; 
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.pinterest:hover {
+    /*filter: grayscale(100);*/
+    opacity: 0.8;
+    transition: margin, 1s;
+}
+
+.pinterest:hover .save {
+    opacity: 0; 
+}
+
+.save button{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    position: absolute;
+    transform: translate(450%, -1000%);
+    height: 40px;
+    width: 60px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 30%;
+    border: none;
+    padding-top: 10px;
+    opacity:0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    position: absolute;
+    transform: translate(0%, -200%);
+}
+
+.longbutton {
+    /*display: flex;*/
+    width: 100px; 
+    height: 40px;
+    background-color: white;
+    border-radius: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    vertical-align: center;
+    border: none;
+    text-decoration: none;
+    opacity:0;
+}
+
+.shortbutton {
+    height: 40px;
+    width: 70px;
+    background-color: white;
+    border-radius: 30% 30%;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: none;
+    opacity:0;
+}
+
+
